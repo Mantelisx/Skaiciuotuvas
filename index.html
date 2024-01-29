@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skaiciuotuvas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form name="skaiciuotuvas">
+        <table >
+        
+            <tr>
+                <td colspan="4"> <input type="text" name="result" placeholder="0" style="text-align:right"> </td>
+            </tr>
+        
+            <tr>
+                <td><button type="button" value="x^2" onclick="square()"> x<sup>2 </button> </td>
+                <td><button type="button" value="**" onclick="number(value)"> x<sup>n </button> </td>
+                <td><button type="button" value="BACKSPC" onclick="trintipoviena()"> <- </button> </td>
+                <td><button type="button" value="C" class="clear" onclick="istrinti()"> C </button></td>
+            </tr>
+        
+            <tr>
+                <td><button type="button" value="sin" onclick="sin()"> sin </button> </td>
+                <td><button type="button" value="cos" onclick="cos()"> cos</button> </td>
+                <td><button type="button" value="tan" onclick="tan()"> tan </button> </td>
+                <td><button type="button" value="sqrt2" onclick="sqrt2()"> &radic; </button> </td>
+            </tr>
+        
+            <tr>
+                <td><button type="button" value="arcsin" onclick="arcsin()"> sin<sup>-1 </button> </td>
+                <td><button type="button" value="arccos" onclick="arccos()"> cos<sup>-1</button> </td>
+                <td><button type="button" value="arctan" onclick="arctan()"> tan<sup>-1 </button> </td>
+                <!--<td><button type="button" value="sqrt3" onclick="sqrt3()"> &#8731; </button> </td>-->
+                <td><button type="button" value="factorial" onclick="factorial()"> x! </button> </td>
+            </tr>
+
+            <tr> <td></td> </tr>
+            <tr> <td></td> </tr>
+            <tr> <td></td> </tr>
+            <tr> <td></td> </tr>
+            <tr> <td></td> </tr>
+
+            <tr>
+                <td><button type="button" value="7" onclick="number(value)" class="skaicius"> 7 </button> </td>
+                <td><button type="button" value="8" onclick="number(value)" class="skaicius"> 8 </button> </td>
+                <td><button type="button" value="9" onclick="number(value)" class="skaicius"> 9 </button> </td>
+                <td><button type="button" value="/" onclick="number(value)"> / </button> </td>
+            </tr>
+        
+            <tr>
+                <td><button type="button" value="4" onclick="number(value)" class="skaicius"> 4</button> </td>
+                <td><button type="button" value="5" onclick="number(value)" class="skaicius"> 5 </button> </td>
+                <td><button type="button" value="6" onclick="number(value)" class="skaicius"> 6 </button> </td>
+                <td><button type="button" value="*" onclick="number(value)"> * </button> </td>
+            </tr>
+        
+            <tr>
+                <td><button type="button" value="1" onclick="number(value)" class="skaicius"> 1 </button> </td>
+                <td><button type="button" value="2" onclick="number(value)" class="skaicius"> 2 </button> </td>
+                <td><button type="button" value="3" onclick="number(value)" class="skaicius"> 3 </button> </td>
+                <td><button type="button" value="-" onclick="number(value)"> - </button> </td>
+            </tr>
+        
+            <tr>
+                <td><button type="button" value="%" onclick="number(value)"> % </button> </td>
+                <td><button type="button" value="0" onclick="number(value)" class="skaicius"> 0 </button> </td>
+                <td><button type="button" value="." onclick="number(value)"> . </button> </td>
+                <td><button type="button" value="+" onclick="number(value)"> + </button> </td>
+            </tr>
+        
+            <tr>
+                <td><button type="button" value="3.14159265359" onclick="number(value)"> &pi; </button> </td>
+                <td colspan="3"> <button type="button" value="=" onclick="lygu()" class="equal">=</button> </td>
+            </tr>
+        
+        </table>
+        </form>
+</body>
+</html>

@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background: radial-gradient(#b472e0,rgb(98, 61, 235))no-repeat fixed;
+    padding: 50px 0px;
+}
+button.clear {
+    background: orangered;
+    color: #fff;
+    transition: 0.15s;
+}
+
+button.clear:hover {
+    background: red;
+}
+
+button.clear:active {
+    background: lightsalmon;
+    transform: scale(0.9);
+}
+
+table {
+    background: orange;
+    padding: 7px 5px;
+    border: 6px solid #00000000;
+    text-align: center;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 30px #0d5569;
+    border-radius: 18px;
+    /*margin-top: 90px;*/
+    margin: auto;
+}
+button.equal {
+    width: 95%; /*354px*/
+    background: blue;
+    color: white;
+    transition: 0.15s;
+}
+button.equal:hover{
+	background: darkblue;
+}
+
+button.equal:active{
+	background: lightblue;
+    transform: scale(0.97);
+}
+
+input[type="text"] {
+    width: 450px;
+    height: 81px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    font-size: 29px;
+    background: #000000;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: cursive;
+    margin-top: 10px;
+    color: #dedede;
+    border-bottom: 3px solid orangered;
+}
+button {
+    padding: 10px 20px;
+    width: 100px;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: cursive;
+    background: purple;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+
+button.skaicius{
+    background-color: gray;
+    color: white;
+    transition: 0.15s;
+}
+
+button.skaicius:hover{
+    background-color: darkgray;
+}
+
+button.skaicius:active{
+    background-color: yellow;
+    transform: scale(0.9);
+}
+
+button:hover{
+	background: rgb(150, 0, 150);
+}
+
+button:active{
+    background-color: rgb(231, 0, 231);
+    transform: scale(0.9);
+}
+
+
+
+
+@media only screen and (max-width:590px){
+    button {
+        padding: 1.694915254vw 3.389830508vw;
+        width: 16.94915254vw;
+        height: 10.16949153vw;
+        margin-bottom: 3.389830508vw;
+        font-size: 4.745762712vw;
+    }
+
+    input[type="text"] {
+        width: 76.27118644vw;
+        height: 13.72881356vw;
+        border: 0.169491525vw solid #000;
+        padding: 1.694915254vw 3.389830508vw;
+        font-size: 4.915254237vw;
+        margin-bottom: 4.237288136vw;
+        margin-top: 1.694915254vw;
+        border-bottom: 0.508474576vw solid orangered;
+    }
+
+    table {
+        padding: 1.186440678vw 0.847457627vw;
+        box-shadow: 0px 0px 5.084745763vw #0d5569;
+        border-radius: 3.050847458vw;
+    }
+
+    body {
+        padding: 8.474576271vw 0px;
+    }
+}
+
